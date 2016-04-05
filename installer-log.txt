@@ -1,0 +1,180 @@
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP1 START @ 08:37:22
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+VERSION:	1.1.6
+PHP:		5.6.12 | SAPI: apache2handler
+SERVER:		Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12
+DOC ROOT:	C:/xampp/htdocs/ayoajar3
+DOC ROOT 755:	true
+LOG FILE 644:	true
+BUILD NAME:	20160405_ayoajar_5703f3b9769277597160405171953
+REQUEST URL:	https://localhost/ayoajar3/installer.php
+
+********************************************************************************
+ARCHIVE SETUP
+********************************************************************************
+NAME:	20160405_ayoajar_5703f3b9769277597160405171953_archive.zip
+SIZE:	39.8MB
+ZIP:	Enabled (ZipArchive Support)
+EXTRACTING
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4920
+    [filename] => C:\xampp\htdocs\ayoajar3\20160405_ayoajar_5703f3b9769277597160405171953_archive.zip
+    [comment] => 
+)
+COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to .orig
+- Reset of .htaccess/web.config files
+
+UPDATED FILES:
+- SQL FILE:  'C:/xampp/htdocs/ayoajar3/installer-data.sql'
+- WP-CONFIG: 'C:/xampp/htdocs/ayoajar3/wp-config.php'
+
+ARCHIVE RUNTIME: 10.3427 sec.
+
+
+********************************************************************************
+DATABASE-ROUTINES
+********************************************************************************
+--------------------------------------
+SERVER ENVIROMENT
+--------------------------------------
+MYSQL VERSION:	5.6.26
+TIMEOUT:	5000
+MAXPACK:	1048576
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+DROP TABLE:	
+QUERIES RAN:	1680
+
+wp_bp_activity: (10)
+wp_bp_activity_meta: (0)
+wp_bp_friends: (4)
+wp_bp_groups: (1)
+wp_bp_groups_groupmeta: (5)
+wp_bp_groups_members: (2)
+wp_bp_messages_messages: (0)
+wp_bp_messages_meta: (0)
+wp_bp_messages_notices: (0)
+wp_bp_messages_recipients: (0)
+wp_bp_notifications: (5)
+wp_bp_notifications_meta: (0)
+wp_bp_xprofile_data: (7)
+wp_bp_xprofile_fields: (1)
+wp_bp_xprofile_groups: (1)
+wp_bp_xprofile_meta: (0)
+wp_commentmeta: (0)
+wp_comments: (3)
+wp_duplicator_packages: (1)
+wp_links: (0)
+wp_options: (346)
+wp_postmeta: (813)
+wp_posts: (202)
+wp_signups: (1)
+wp_swpm_members_tbl: (1)
+wp_swpm_membership_meta_tbl: (0)
+wp_swpm_membership_tbl: (3)
+wp_swpm_payments_tbl: (0)
+wp_term_relationships: (47)
+wp_term_taxonomy: (9)
+wp_termmeta: (0)
+wp_terms: (9)
+wp_ufbl_entries: (1)
+wp_ufbl_forms: (1)
+wp_usermeta: (160)
+wp_users: (9)
+Removed '76' cache/transient rows
+
+SECTION RUNTIME: 1.9326 sec.
+
+********************************************************************************
+STEP1 COMPLETE @ 08:37:34 - TOTAL RUNTIME: 12.2867 sec.
+********************************************************************************
+
+
+
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP2 START @ 08:38:36
+NOTICE: Do not post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	 utf8 
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_bp_activity~ (10)
+wp_bp_activity_meta^ (0)
+wp_bp_friends~ (4)
+wp_bp_groups~ (1)
+wp_bp_groups_groupmeta~ (5)
+wp_bp_groups_members~ (2)
+wp_bp_messages_messages^ (0)
+wp_bp_messages_meta^ (0)
+wp_bp_messages_notices^ (0)
+wp_bp_messages_recipients^ (0)
+wp_bp_notifications~ (5)
+wp_bp_notifications_meta^ (0)
+wp_bp_xprofile_data~ (7)
+wp_bp_xprofile_fields~ (1)
+wp_bp_xprofile_groups~ (1)
+wp_bp_xprofile_meta^ (0)
+wp_commentmeta^ (0)
+wp_comments~ (3)
+wp_duplicator_packages^ (0)
+wp_links^ (0)
+wp_options~ (269)
+wp_postmeta~ (813)
+wp_posts~ (202)
+wp_signups~ (1)
+wp_swpm_members_tbl~ (1)
+wp_swpm_membership_meta_tbl^ (0)
+wp_swpm_membership_tbl~ (3)
+wp_swpm_payments_tbl^ (0)
+wp_term_relationships~ (47)
+wp_term_taxonomy~ (9)
+wp_termmeta^ (0)
+wp_terms~ (9)
+wp_ufbl_entries~ (1)
+wp_ufbl_forms~ (1)
+wp_usermeta~ (160)
+wp_users~ (9)
+--------------------------------------
+SEARCH1:	'http://ayoajar.com' 
+REPLACE1:	'https://localhost/ayoajar3' 
+SEARCH2:	'/home/ayoz6816/public_html/' 
+REPLACE2:	'C:/xampp/htdocs/ayoajar3/' 
+SCANNED:	Tables:36 | Rows:1564 | Cells:10394 
+UPDATED:	Tables:1 | Rows:141 |Cells:148 
+ERRORS:		0 
+RUNTIME:	0.838700 sec
+
+********************************************************************************
+START FINAL CLEANUP: 08:38:36
+********************************************************************************
+UPDATE `wp_blogs` SET domain = 'localhost' WHERE domain = 'ayoajar.com'
+
+--------------------------------------
+WARNINGS
+--------------------------------------
+No Warnings Found
+
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+created basic .htaccess file.  If using IIS web.config this process will need to be done manually.
+********************************************************************************
+STEP 2 COMPLETE @ 08:38:36 - TOTAL RUNTIME: 0.8707 sec.
+********************************************************************************

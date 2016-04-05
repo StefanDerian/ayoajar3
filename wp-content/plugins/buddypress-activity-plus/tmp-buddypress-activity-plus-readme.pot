@@ -1,0 +1,256 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "BuddyPress Activity Plus"
+msgstr ""
+
+#. Short description.
+msgid "BuddyPress Activity Plus allows for embedding of oEmbed videos and media in your activities."
+msgstr ""
+
+#. Screenshot description.
+msgid "Embed Activity Window"
+msgstr ""
+
+#. Screenshot description.
+msgid "Photos and websites are easily embedded"
+msgstr ""
+
+#. Screenshot description.
+msgid "Image galleries right in the activity stream"
+msgstr ""
+
+#. Screenshot description.
+msgid "Video in your activity stream"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "BuddyPress Embed Activity gives your social network all the features and ease of Facebook when it comes to uploading and sharing media!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "[youtube https://www.youtube.com/watch?v=57qUenN1DOM]"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The plugin adds 3 new buttons to your BuddyPress activity stream.  Enabling you to attach photos, videos, and even share web links with everyone on your network!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Here's the quick overview of this plugin's features:\n"
+" * Upload a photo (or multiple) directly from your computer to the activity stream\n"
+" * Embed a video from popular sites such as youtube and vimeo by copying the link\n"
+" * Embed a link to any site - the site title and description will automatically be pulled in\n"
+" * Embedding a link also allows you to choose a thumbnail image from a list of images on the site's homepage\n"
+" * Works perfectly with any theme based on the BuddyPress Default theme"
+msgstr ""
+
+#. Found in installation header.
+msgid "To Install:"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Download the plugin file"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Unzip the file into a folder on your hard drive"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the <code>/bpfb/</code> folder to the <code>/wp-content/plugins/</code> folder on your site"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Single-site BuddyPres go to Plugins menu and activate there."
+msgstr ""
+
+#. Found in installation list item.
+msgid "For Multisite visit Network Admin -&gt; Plugins and Network Activate it there."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for preview URL escaping issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Expose dependencies manipulation filters."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for link contents render after editing."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for certain characters cutting shortcode too short."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for group document uploads."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for potential CSRF issue and attribute escaping."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some cleanup."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added ability to auto-clean up unused images."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some code tweaks and fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added themes and the settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added EXIF orientation support."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better OpenGraph support for link sharing."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Trimming images for auto-innjected breaks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Link type hrefs target assigned for external and all keywords."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Refactoring the deprecated resizing mehtod."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixing BuddyPress theme compat layer updates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for shortcodes appearing in activity RSS feeds."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Wrapping initialization in mobile browser detection stub."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "File name sanitization (thanks, buzug)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed conflict with duplicated uploader dependencies."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prepared the uploader for l10n."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added image limit define."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added protocol replacement."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added URL scheme prefixing for links that miss it."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added switch for disabling Thickbox."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added waiting indicator for link and video processing."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enter in video/link input triggers preview."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Included missing file resource."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Re-styled the interface so the icons can be easily changed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for theme to force its own styles."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added OpenGraph image support to link image detection."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option for overriding the default thumbnail image."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Clearer display of cancel button vs. old 'X' icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Progress indicator for file uploads"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Integration with Group Documents plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added remote image support."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Upload images cancels out remote image embedding, and vice versa."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remote url input width fix."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for user-defined oEmbed width."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added \"no thumbnail\" option for link sharing."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "BuddyPress v1.5 compatibility update."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Initial Release"
+msgstr ""
+
+#. Found in faq header.
+msgid "Do I need to be a paid WPMU DEV member?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I get support?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No. This plugin is offered as is at no charge."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We provide comprehensive and guaranteed support on the <a href='http://premium.wpmudev.org/forums/tags/buddypress-activity-plus'>WPMU DEV forums</a> and <a href='http://premium.wpmudev.org/live-support/'>live chat</a> only."
+msgstr ""
