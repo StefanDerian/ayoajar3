@@ -12,13 +12,23 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 class search_teacher{
 
-	public function show_teacher_form(){
+	public function show_teacher(){
 
 
 
 
 		
 	}
+
+	public function search_form(){
+
+
+
+		
+
+	}
+
+
 
 
 
