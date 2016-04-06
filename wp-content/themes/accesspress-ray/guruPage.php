@@ -1,7 +1,7 @@
 <?php /* Template Name: guruPage */ ?>
 <?php
 
-get_header(); 
+ 
 global $post;
 if(is_front_page()){
 	$post_id = get_option('page_on_front');
